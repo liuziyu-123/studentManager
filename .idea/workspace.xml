@@ -1,11 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47621957-901a-4406-b8d0-095e27321b17" name="Default Changelist" comment="" />
+    <list default="true" id="47621957-901a-4406-b8d0-095e27321b17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/ApiResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/ErrorConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/JwtHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/configer/CorsConfiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/configer/CorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/configer/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/filter/AuthGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/gateway-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/gateway-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-service.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -14,17 +60,101 @@
         <option name="userSettingsFile" value="H:\办公软件\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2Hzpl9IIsJbw3Z0vbTSqP2qf4ik" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-service/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.studentManager.common.Utils" />
+      <recent name="com.studentManager.gateway" />
+      <recent name="com.studentManager.gateway.configer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\studentManager\user-service\src\main\resources" />
+      <recent name="D:\Projects\studentManager\course-service\src\main\resources" />
+      <recent name="D:\Projects\studentManager\gateway-service\src\main\java\com\studentManager\gateway" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.studentManager.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.studentManager.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.studentManager.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.studentManager.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplicaton" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.studentManager.user.UserApplicaton" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.UserApplicaton" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -48,7 +178,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669297914411</updated>
-      <workItem from="1669297922915" duration="1224000" />
+      <workItem from="1669297922915" duration="1748000" />
+      <workItem from="1669366483135" duration="2376000" />
+      <workItem from="1669436193274" duration="16466000" />
+      <workItem from="1669514134382" duration="20095000" />
+      <workItem from="1669554886070" duration="4578000" />
+      <workItem from="1670033849166" duration="3071000" />
     </task>
     <servers />
   </component>
@@ -56,9 +191,77 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="193" y="121" key="new project wizard" timestamp="1669298405902">
+    <state x="223" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1669438510685">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="193" y="121" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1669298405902" />
+    <state x="223" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1669438510685" />
+    <state x="559" y="283" width="417" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1669517594268">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="559" y="283" width="417" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1669517594268" />
+    <state width="1492" height="161" key="GridCell.Tab.0.bottom" timestamp="1670042999905">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="161" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1670042999905" />
+    <state width="1492" height="161" key="GridCell.Tab.0.center" timestamp="1670042999905">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="161" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1670042999905" />
+    <state width="1492" height="161" key="GridCell.Tab.0.left" timestamp="1670042999905">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="161" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1670042999905" />
+    <state width="1492" height="161" key="GridCell.Tab.0.right" timestamp="1670042999905">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="161" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1670042999905" />
+    <state width="1492" height="161" key="GridCell.Tab.1.bottom" timestamp="1670042999905">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="161" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1670042999905" />
+    <state width="1492" height="161" key="GridCell.Tab.1.center" timestamp="1670042999905">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="161" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1670042999905" />
+    <state width="1492" height="161" key="GridCell.Tab.1.left" timestamp="1670042999905">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="161" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1670042999905" />
+    <state width="1492" height="161" key="GridCell.Tab.1.right" timestamp="1670042999905">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="161" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1670042999905" />
+    <state width="1492" height="414" key="GridCell.Tab.2.bottom" timestamp="1669559520368">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="414" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1669559520368" />
+    <state width="1492" height="414" key="GridCell.Tab.2.center" timestamp="1669559520368">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="414" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1669559520368" />
+    <state width="1492" height="414" key="GridCell.Tab.2.left" timestamp="1669559520368">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="414" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1669559520368" />
+    <state width="1492" height="414" key="GridCell.Tab.2.right" timestamp="1669559520368">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="414" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1669559520368" />
+    <state x="299" y="75" key="Maven.ArtifactSearchDialog" timestamp="1669530721490">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="299" y="75" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1669530721490" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1669516990986">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1669516990986" />
+    <state x="193" y="66" key="new project wizard" timestamp="1670035583045">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="193" y="66" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1670035583045" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1669531868785">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1669531868785" />
   </component>
 </project>

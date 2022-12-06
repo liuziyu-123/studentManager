@@ -1,0 +1,2 @@
+com\studentManager\gateway\GatewayApplication.class
+com\studentManager\gateway\filter\AuthGlobalFilter.class
