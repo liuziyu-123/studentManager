@@ -16,6 +16,7 @@ public class UserController {
 
     @GetMapping("test")
     public ApiResult test(){
+        int i=2/0;
         return ApiResult.success("张玉敏");
     }
 
