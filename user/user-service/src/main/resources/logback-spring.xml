@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!--定义日志文件的存储地址 -->
+    <property name="LOG_HOME" value="log"/>
+    <!-- 控制台输出级别及格式等 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>debug</level>
+        </filter>
+        <encoder>
+            <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
+            <charset>utf8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 按照每天生成日志文件 -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+<!--        <file>${LOG_HOME}/userService.%d{yyyy-MM-dd}-%i.log</file>-->
+<!--        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">-->
+<!--            <level>info</level>-->
+<!--        </filter>-->
+        <!-- 匹配>=INFO级别的日志-->
+<!--        <filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+<!--            <level>DEBUG</level>-->
+<!--            <onMatch>ACCEPT</onMatch>-->
+<!--            <onMismatch>DENY</onMismatch>-->
+<!--        </filter>-->
+        <prudent>true</prudent>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--日志文件输出的文件名-->
+
+            <FileNamePattern>${LOG_HOME}/userService.%d{yyyy-MM-dd}-%i.log</FileNamePattern>
+            <maxHistory>5</maxHistory>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>5MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!--日志文件保留天数-->
+            <MaxHistory>5</MaxHistory>
+        </rollingPolicy>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <!--日志文件最大的大小，如果与每日生成一个文件的属性共存，一旦不重启程序，将不会每日新生成一个文件-->
+<!--        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">-->
+<!--            <MaxFileSize>15MB</MaxFileSize>-->
+<!--        </triggeringPolicy>-->
+    </appender>
+
+<!--    <appender name="errorAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--        <file>${LOG_HOME}/userService.%d{yyyy-MM-dd}-%i.log</file>-->
+<!--        <prudent>true</prudent>-->
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+<!--            <FileNamePattern>${LOG_HOME}/userService1.%d{yyyy-MM-dd}-%i.log</FileNamePattern>-->
+<!--            <maxHistory>5</maxHistory>-->
+<!--            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">-->
+<!--                <maxFileSize>100KB</maxFileSize>-->
+<!--            </timeBasedFileNamingAndTriggeringPolicy>-->
+<!--            &lt;!&ndash;日志文件保留天数&ndash;&gt;-->
+<!--            <MaxHistory>5</MaxHistory>-->
+<!--        </rollingPolicy>-->
+<!--        <encoder>-->
+<!--            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>-->
+<!--            <charset>utf8</charset>-->
+<!--        </encoder>-->
+        <!--
+             配置日志级别过滤器 作用:根据日志级别进行过滤，如果日志级别等于配置级别过滤器会根据onMath和onMismatch接收或拒绝日志
+             参数:
+             <level>:设置过滤级别
+             <onMatch>:用于配置符合过滤条件的操作
+             <onMismatch>:用于配置不符合过滤条件的操作
+                                       此处配置为只接收ERROR日志级别信息
+         -->
+<!--        <filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+<!--            <level>ERROR</level>-->
+<!--            <onMatch>ACCEPT</onMatch>-->
+<!--            <onMismatch>DENY</onMismatch>-->
+<!--        </filter>-->
+<!--    </appender>-->
+
+
+
+
+    <!-- 日志输出级别,指定以什么方式输出对应上面appender的name -->
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
+<!--        <appender-ref ref="errorAppender"/>-->
+
+    </root>
+</configuration>

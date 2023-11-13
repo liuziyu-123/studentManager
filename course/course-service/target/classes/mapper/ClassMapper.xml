@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.studentManager.course.mapper.ClassMapper">
+
+    <select id="selectAllClass" resultType="com.studentManager.course.entry.ClassEntry">
+        select c.*,u.user_name headTeacherName from clas c
+        left join user u on c.head_teacher_id=u.id
+        where 1=1
+        <if test="className !=null and className !=''">
+            and c.class_name like %#{className}%
+        </if>
+        <if test=" headTeacherName!=null and headTeacherName !=''">
+            and u.user_name =#{headTeacherName}
+        </if>
+    </select>
+
+    <select id="getClassByGradeId" resultType="com.studentManager.course.entry.ClassDao">
+        select id,class_name,class_no
+        from clas
+        where grade_id=#{gradeId}
+        order by class_no asc
+    </select>
+
+</mapper>

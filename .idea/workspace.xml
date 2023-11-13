@@ -5,29 +5,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47621957-901a-4406-b8d0-095e27321b17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/CourseApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/Impl/ServiceUserFeignImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/component/MyListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/config/MyRabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/controller/ConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/service/ServiceUserFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/config/MyCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/config/MyRabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/ProducerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Entry/ResourcesFileEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Entry/UserEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/File/Controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/LocalThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/PagingResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/ResourceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/UUIDUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/resources/mapper/FileMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-api/src/main/java/com/studentManager/course/entry/ClassDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-api/src/main/java/com/studentManager/course/entry/ClassEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-api/src/main/java/com/studentManager/course/entry/CourseEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-api/src/main/java/com/studentManager/course/entry/GradeEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-api/src/main/java/com/studentManager/course/entry/SubjectEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-api/src/main/java/com/studentManager/course/feign/UserFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/config/InterceptorConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/controller/ClassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/controller/GradeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/intercepter/GlobelInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/mapper/ClassMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/mapper/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/mapper/GradeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/service/ClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/service/GradeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/resources/mapper/ClassMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/resources/mapper/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/course-service/src/main/resources/mapper/GradeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/filter/GlobleFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-api/src/main/java/com/studentManager/user/entry/QueryclassVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-api/src/main/java/com/studentManager/user/entry/RegionEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/Config/FilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/Config/InterceptorConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/Config/PropotiesConfiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/Config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/TsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/resources/Mapper/TsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/resources/Mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/utils/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/Utils/RedisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course/course-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/Impl/ServiceUserFeignImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/service/impl/ServiceUserFeignImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/component/MyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/component/MyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/controller/ConsumerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/service/ServiceUserFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/service/ServiceUserFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/Impl/ServiceUserFeignImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/component/MyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/controller/ConsumerController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/controller/ConsumerController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/controller/ConsumerController$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/controller/ConsumerController$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/controller/ConsumerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/service/ServiceUserFeign.class" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/service/ServiceUserFeign.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/filter/AuthGlobalFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/filter/LoginFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/studentManager/gateway/GatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/studentManager/gateway/GatewayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/config/MyCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/Config/MyCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/config/MyRabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/Config/MyRabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/ProducerController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/META-INF/user-service.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/UserApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/config/MyCallBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/config/MyRabbitConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/controller/ProducerController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/controller/ProducerController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/controller/ProducerController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +139,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Projects/studentManager/course/course-service/src/main/resources",
+    "last_opened_file_path": "D:/Projects/studentManager/course/course-service/src/main/java/com/studentManager/course",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,7 +148,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "2928646db637c28f3f804df98617a04a",
+    "spring.configuration.checksum": "d6929a15a79d7128b6b55fa6d61fffd3",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -88,19 +157,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\studentManager\course\course-service\src\main\java\com\studentManager\course" />
       <recent name="D:\Projects\studentManager\course\course-service\src\main\resources" />
-      <recent name="D:\Projects\studentManager\user-service\src\main\resources" />
-      <recent name="D:\Projects\studentManager\course-service\src\main\resources" />
-      <recent name="D:\Projects\studentManager\gateway-service\src\main\java\com\studentManager\gateway" />
+      <recent name="D:\Projects\studentManager\user\user-service\src\main\resources" />
+      <recent name="D:\Projects\studentManager\user\user-service\src\main\resources\Mapper" />
+      <recent name="D:\Projects\studentManager\course\course-service\src\main\resources\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\studentManager\common-service\src\main\resources\mapper" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.studentManager.user.config" />
-      <recent name="com.studentManager.common.Utils" />
-      <recent name="com.studentManager.gateway" />
+      <recent name="com.studentManager.course.config" />
+      <recent name="com.studentManager.gateway.filter" />
       <recent name="com.studentManager.gateway.configer" />
+      <recent name="com.studentManager.common.Utils" />
+      <recent name="com.studentManager.user.entry" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.CourseApplication">
@@ -146,8 +220,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.CourseApplication" />
-        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -203,10 +277,46 @@
       <workItem from="1691736497838" duration="3617000" />
       <workItem from="1692279011294" duration="100000" />
       <workItem from="1694008135770" duration="66000" />
+      <workItem from="1698636159204" duration="8746000" />
+      <workItem from="1698731687764" duration="547000" />
+      <workItem from="1698892482189" duration="13506000" />
+      <workItem from="1698914128035" duration="5138000" />
+      <workItem from="1698973748981" duration="21114000" />
+      <workItem from="1699236243239" duration="25947000" />
+      <workItem from="1699322264885" duration="18833000" />
+      <workItem from="1699406619229" duration="12312000" />
+      <workItem from="1699492012737" duration="8942000" />
+      <workItem from="1699592159706" duration="1298000" />
+      <workItem from="1699837742370" duration="16841000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/intercepter/GlobelInterceptor.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.web.servlet.resource.ResourceUrlProviderExposingInterceptor" memberName="resourceUrlProvider" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((Request)((RequestFacade)request).request).requestDispatcherPath" custom="org.apache.catalina.connector.RequestFacade,org.apache.catalina.connector.Request" />
+        <watch expression="interceptors[i]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
