@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.studentManager.course.mapper.GradeMapper">
 
-    <select id="selectGrade" resultType="com.studentManager.course.entry.GradeDao">
+    <select id="selectGrade" resultType="com.studentManager.course.entry.GradeEntry">
         select g.id,g.grade_name,g.create_time,g.create_by,g.grade_director_id,u. from Grade g
         left join user u on u.id =g.grade_director_id
         where 1=1

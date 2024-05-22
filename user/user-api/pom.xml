@@ -11,7 +11,7 @@
 
     <artifactId>user-api</artifactId>
     <dependencies>
-        <!--mybatisPlus-->
+        <!--mybatisPlus
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
@@ -23,6 +23,8 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+
+        -->
     </dependencies>
 
 </project>

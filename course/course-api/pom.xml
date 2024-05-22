@@ -13,7 +13,7 @@
 
 
     <dependencies>
-        <!--mybatisPlus-->
+        <!--mybatisPlus
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
@@ -25,7 +25,7 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-
+-->
 <!--        <dependency>-->
 <!--            <groupId>org.example</groupId>-->
 <!--            <artifactId>common-service</artifactId>-->

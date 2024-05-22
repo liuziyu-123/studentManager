@@ -1,7 +1,5 @@
 package com.studentManager.common.Utils;
 
-import cn.hutool.core.util.IdUtil;
-
 import java.util.UUID;
 
 public class UUIDUtils {
@@ -27,7 +25,7 @@ public class UUIDUtils {
      * @return
      */
     public static String getGUID32() {
-        return IdUtil.objectId().toLowerCase();
+        return UUID.randomUUID().toString().toLowerCase();
     }
 
     /**

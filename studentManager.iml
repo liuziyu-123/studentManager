@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4" />
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/common-service/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/common-service/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/course/course-api/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/course/course-service/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/course/course-service/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/gateway-service/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gateway-service/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/user/user-api/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/user-service/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/user-service/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/common-service/target" />
+      <excludeFolder url="file://$MODULE_DIR$/course/course-api/target" />
+      <excludeFolder url="file://$MODULE_DIR$/course/course-service/target" />
+      <excludeFolder url="file://$MODULE_DIR$/gateway-service/target" />
+      <excludeFolder url="file://$MODULE_DIR$/user/user-api/target" />
+      <excludeFolder url="file://$MODULE_DIR$/user/user-service/target" />
+    </content>
+  </component>
+</module>

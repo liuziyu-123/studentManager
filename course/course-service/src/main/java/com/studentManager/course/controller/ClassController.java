@@ -7,13 +7,11 @@ import com.studentManager.common.Utils.ApiResult;
 import com.studentManager.common.Utils.ErrorConstant;
 import com.studentManager.common.Utils.LocalThread;
 import com.studentManager.common.Utils.PagingResult;
-import com.studentManager.course.entry.ClassDao;
 import com.studentManager.course.entry.ClassEntry;
 import com.studentManager.course.service.ClassService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 

@@ -5,12 +5,18 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/course/course-service/pom.xml" />
+        <option value="$PROJECT_DIR$/course/course-api/pom.xml" />
+        <option value="$PROJECT_DIR$/course/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/course-service/pom.xml" />
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/user1/pom.xml" />
+        <option value="$PROJECT_DIR$/user1/user1-api/pom.xml" />
+        <option value="$PROJECT_DIR$/user1/user1-service/pom.xml" />
       </set>
     </option>
   </component>

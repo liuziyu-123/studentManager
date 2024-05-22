@@ -43,26 +43,22 @@
         </dependency>
 
 
-        <!--Nacos发现-->
+        <!--Nacos发现
          <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
              <version>2.0.0.RELEASE</version>
         </dependency>
-
-        <!--nacos  配置-->
+-->
+        <!--nacos  配置
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
             <version>2.2.1.RELEASE</version>
         </dependency>
+-->
 
 
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.80</version>
-        </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>

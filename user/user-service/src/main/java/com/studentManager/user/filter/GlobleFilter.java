@@ -12,9 +12,6 @@ import java.io.IOException;
 @Slf4j
 public class GlobleFilter implements Filter {
 
-
-
-
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         log.info("过滤器执行了........");

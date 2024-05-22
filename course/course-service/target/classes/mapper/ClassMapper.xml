@@ -3,19 +3,21 @@
 <mapper namespace="com.studentManager.course.mapper.ClassMapper">
 
     <select id="selectAllClass" resultType="com.studentManager.course.entry.ClassEntry">
-        select c.*,u.user_name headTeacherName from clas c
-        left join user u on c.head_teacher_id=u.id
+        select id,class_name,head_teacher_id,head_teacher_name,is_forbidden,grade_id from clas
         where 1=1
         <if test="className !=null and className !=''">
-            and c.class_name like %#{className}%
+            and class_name like %#{className}%
         </if>
         <if test=" headTeacherName!=null and headTeacherName !=''">
-            and u.user_name =#{headTeacherName}
+            and head_teacher_name =#{headTeacherName}
+        </if>
+        <if test=" gradeId!=null and gradeId !=''">
+            and grade_id =#{gradeId}
         </if>
     </select>
 
     <select id="getClassByGradeId" resultType="com.studentManager.course.entry.ClassDao">
-        select id,class_name,class_no
+        select id,class_name
         from clas
         where grade_id=#{gradeId}
         order by class_no asc

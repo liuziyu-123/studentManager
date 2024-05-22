@@ -19,5 +19,9 @@
     <file url="file://$PROJECT_DIR$/user/user-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user/user-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user/user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user1/user1-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user1/user1-service/src/main/java" charset="UTF-8" />
   </component>
 </project>
