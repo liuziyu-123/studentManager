@@ -1,4 +1,4 @@
-package com.studentManager.common.File.FileService;
+package com.studentManager.course.service;
 
 
 import com.studentManager.common.Entry.ResourcesFileEntry;

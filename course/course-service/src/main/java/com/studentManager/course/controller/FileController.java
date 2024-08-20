@@ -1,13 +1,14 @@
-package com.studentManager.common.File.Controller;
+package com.studentManager.course.controller;
 
 
 import cn.hutool.core.io.FileUtil;
-import com.studentManager.common.File.FileService.FileService;
 import com.studentManager.common.Utils.ApiResult;
+import com.studentManager.course.service.FileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;

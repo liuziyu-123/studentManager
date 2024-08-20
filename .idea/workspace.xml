@@ -4,43 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47621957-901a-4406-b8d0-095e27321b17" name="Default Changelist" comment="12">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="47621957-901a-4406-b8d0-095e27321b17" name="Default Changelist" comment="重新设计common">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Entry/ResourcesFileEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Entry/ResourcesFileEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Entry/UserEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Entry/UserEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/File/Controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/File/Controller/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/File/FileService/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/File/FileService/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/File/FileService/Impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/File/FileService/Impl/FileServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/File/Mapper/FileMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/File/Mapper/FileMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/ApiResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/ApiResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/BeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/ErrorConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/ErrorConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/JwtHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/JwtHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/LocalThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/LocalThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/MyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/PagingResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/PagingResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/ResourceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/ResourceUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/UUIDUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/UUIDUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/resources/mapper/FileMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/mapper/FileMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studentManager.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/intercepter/GlobelInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/intercepter/GlobelInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/resources/Mapper/TsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/resources/mapper/TsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/resources/Mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +91,7 @@
       <recent name="com.studentManager.user.entry" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
+  <component name="RunManager" selected="Spring Boot.CommonApplication">
     <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="common" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.common.CommonApplication" />
@@ -271,7 +236,7 @@
       <workItem from="1719298942314" duration="664000" />
       <workItem from="1722322986297" duration="1821000" />
       <workItem from="1722338530457" duration="84000" />
-      <workItem from="1724135949857" duration="2000000" />
+      <workItem from="1724135949857" duration="4235000" />
     </task>
     <task id="LOCAL-00001" summary="12">
       <created>1716364966730</created>
@@ -280,7 +245,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716364966730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="重新设计common">
+      <created>1724138589380</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724138589380</updated>
+    </task>
+    <task id="LOCAL-00003" summary="重新设计common">
+      <created>1724139730126</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724139730126</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,9 +268,21 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12" />
-    <option name="LAST_COMMIT_MESSAGE" value="12" />
+    <MESSAGE value="重新设计common" />
+    <option name="LAST_COMMIT_MESSAGE" value="重新设计common" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

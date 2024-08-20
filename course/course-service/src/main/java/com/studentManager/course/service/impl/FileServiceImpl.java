@@ -1,13 +1,13 @@
-package com.studentManager.common.File.FileService.Impl;
+package com.studentManager.course.service.impl;
 
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.IdUtil;
 import cn.hutool.core.util.StrUtil;
 import com.studentManager.common.Entry.ResourcesFileEntry;
-import com.studentManager.common.File.FileService.FileService;
 import com.studentManager.common.File.Mapper.FileMapper;
 import com.studentManager.common.Utils.ResourceUtils;
 import com.studentManager.common.Utils.UUIDUtils;
+import com.studentManager.course.service.FileService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;

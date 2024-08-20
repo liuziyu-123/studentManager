@@ -1,4 +1,4 @@
-package com.studentManager.common.File.Mapper;
+package com.studentManager.course.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
