@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 3.@Time:2022/11/27
  **/
 @SpringBootApplication
+
 public class UserApplication {
 
     public static void main(String[] args) {

@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-    @Value("${aaa.bbb}")
-    private String a;
+//    @Value("${aaa.bbb}")
+//    private String a;
 
-    @PostMapping("test")
-    public void test(){
-        System.out.println(a);
-    }
+//    @PostMapping("test")
+//    public void test(){
+//        System.out.println(a);
+//    }
 }

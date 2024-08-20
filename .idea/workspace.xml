@@ -4,103 +4,43 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47621957-901a-4406-b8d0-095e27321b17" name="Default Changelist" comment="">
+    <list default="true" id="47621957-901a-4406-b8d0-095e27321b17" name="Default Changelist" comment="12">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/File/Controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/File/Controller/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/UUIDUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/UUIDUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/Entry/ResourcesFileEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/Entry/UserEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/File/Controller/FileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/File/FileService/FileService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/File/FileService/Impl/FileServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/File/Mapper/FileMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/Utils/ApiResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/Utils/BeanUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/Utils/ErrorConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/Utils/JwtHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/Utils/LocalThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/Utils/MyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/Utils/PagingResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/Utils/ResourceUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/studentManager/common/Utils/UUIDUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/classes/mapper/FileMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/common-service-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-api/target/classes/com/studentManager/course/entry/ClassDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-api/target/classes/com/studentManager/course/entry/ClassEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-api/target/classes/com/studentManager/course/entry/CourseEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-api/target/classes/com/studentManager/course/entry/GradeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-api/target/classes/com/studentManager/course/entry/GradeEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-api/target/classes/com/studentManager/course/feign/UserFeign.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Entry/ResourcesFileEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Entry/ResourcesFileEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Entry/UserEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Entry/UserEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/File/Controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/File/Controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/File/FileService/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/File/FileService/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/File/FileService/Impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/File/FileService/Impl/FileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/File/Mapper/FileMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/File/Mapper/FileMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/ApiResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/ApiResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/BeanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/ErrorConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/ErrorConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/JwtHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/JwtHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/LocalThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/LocalThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/MyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/PagingResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/PagingResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/ResourceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/ResourceUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com/studentManager/common/Utils/UUIDUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Utils/UUIDUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/resources/mapper/FileMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/mapper/FileMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course/course-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/CourseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/CourseApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/controller/ClassController.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/controller/ClassController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/CourseApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/config/InterceptorConfigurer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/config/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/controller/ClassController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/controller/CourseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/controller/GradeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/intercepter/GlobelInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/mapper/ClassMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/mapper/CourseMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/mapper/GradeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/service/ClassService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/service/CourseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/service/GradeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/service/ServiceUserFeign.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/service/impl/ClassServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/service/impl/CourseServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/service/impl/GradeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/service/impl/ServiceUserFeignImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/com/studentManager/course/utils/RedisUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/mapper/ClassMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/target/classes/mapper/ClassMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/mapper/GradeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/target/classes/mapper/GradeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/controller/CourseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/studentManager/gateway/GatewayApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/studentManager/gateway/configer/CorsFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/studentManager/gateway/configer/WebSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/studentManager/gateway/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/studentManager/gateway/filter/GlobleFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/courseService.2023-11-06-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/courseService.2023-11-09-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/courseService.2023-11-13-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/userService.2023-11-06-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/userService.2023-11-07-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/userService.2023-11-08-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/studentManager/gateway/controller/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studentManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/studentManager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentManager.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-api/target/classes/com/studentManager/user/entry/QueryclassVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-api/target/classes/com/studentManager/user/entry/RegionEntry.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/filter/GlobleFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/filter/GlobleFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/UserApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/config/FilterConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/config/InterceptorConfigurer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/config/PropotiesConfiger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/config/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/controller/TsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/filter/GlobleFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/intercepter/GlobelInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/mapper/TsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/service/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/service/Impl/TsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/service/Impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/service/TsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/com/studentManager/user/utils/RedisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/intercepter/GlobelInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/intercepter/GlobelInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/resources/Mapper/TsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/resources/mapper/TsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/resources/Mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +58,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -141,19 +84,20 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/Projects/studentManager/course/course-service/src/main/java/com/studentManager/course",
+    "jdk.selected.JAVA_MODULE": "jbr-17",
+    "last_opened_file_path": "D:/Projects/studentManager/common/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.19332564",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "spring.configuration.checksum": "ec807ff58994fa18288713142ed203b9",
+    "spring.configuration.checksum": "10b355929e01af37373f285cf01ee8a4",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -162,11 +106,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\studentManager\common\src\main\resources" />
+      <recent name="D:\Projects\studentManager\common\src\main\java" />
       <recent name="D:\Projects\studentManager\course\course-service\src\main\java\com\studentManager\course" />
       <recent name="D:\Projects\studentManager\course\course-service\src\main\resources" />
       <recent name="D:\Projects\studentManager\user\user-service\src\main\resources" />
-      <recent name="D:\Projects\studentManager\user\user-service\src\main\resources\Mapper" />
-      <recent name="D:\Projects\studentManager\course\course-service\src\main\resources\mapper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\studentManager\common-service\src\main\resources\mapper" />
@@ -182,7 +126,14 @@
       <recent name="com.studentManager.user.entry" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="studentManager" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.studentManager.course.CourseApplication" />
@@ -209,7 +160,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="UserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="studentManager" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.studentManager.user.UserApplication" />
       <extension name="coverage">
@@ -222,10 +173,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.studentManager.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.UserApplication (1)" />
         <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.CourseApplication" />
       </list>
     </recent_temporary>
@@ -299,8 +259,28 @@
       <workItem from="1716346693251" duration="1187000" />
       <workItem from="1716348940694" duration="3922000" />
       <workItem from="1716361081373" duration="790000" />
-      <workItem from="1716361909661" duration="2707000" />
+      <workItem from="1716361909661" duration="5037000" />
+      <workItem from="1716428333422" duration="2041000" />
+      <workItem from="1716443986469" duration="929000" />
+      <workItem from="1716447190192" duration="5671000" />
+      <workItem from="1716455797959" duration="2508000" />
+      <workItem from="1716462376242" duration="523000" />
+      <workItem from="1716463021064" duration="242000" />
+      <workItem from="1716513629282" duration="1341000" />
+      <workItem from="1716550072436" duration="105000" />
+      <workItem from="1719298942314" duration="664000" />
+      <workItem from="1722322986297" duration="1821000" />
+      <workItem from="1722338530457" duration="84000" />
+      <workItem from="1724135949857" duration="2000000" />
     </task>
+    <task id="LOCAL-00001" summary="12">
+      <created>1716364966730</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716364966730</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +288,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

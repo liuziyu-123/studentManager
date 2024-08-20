@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="course-service" />
         <module name="user-api" />
+        <module name="common" />
         <module name="gateway-service" />
         <module name="user1-api" />
         <module name="user-service" />
@@ -17,7 +18,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common" target="1.8" />
+      <module name="common-service" target="1.8" />
       <module name="news" target="1.8" />
       <module name="news-api" target="1.8" />
       <module name="news-service" target="1.8" />
@@ -31,11 +32,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
       <module name="common-service" options="" />
       <module name="course" options="" />
       <module name="course-api" options="-parameters" />
       <module name="course-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
+      <module name="studentManager" options="" />
       <module name="user" options="" />
       <module name="user-api" options="-parameters" />
       <module name="user-service" options="-parameters" />
