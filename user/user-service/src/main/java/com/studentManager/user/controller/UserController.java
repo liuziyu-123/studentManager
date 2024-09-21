@@ -22,6 +22,7 @@ public class UserController {
     @Autowired
     private RedisUtil redisUtil;
 
+    @Autowired
     private RabbitTemplate rabbitTemplate;
 
     /**

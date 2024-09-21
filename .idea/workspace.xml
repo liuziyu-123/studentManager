@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47621957-901a-4406-b8d0-095e27321b17" name="Default Changelist" comment="pom 重新拉依赖">
-      <change afterPath="$PROJECT_DIR$/rabbitMq-service/src/main/java/com/example/rabbitmqservice/config/RabbitMQConfig.java" afterDir="false" />
+    <list default="true" id="47621957-901a-4406-b8d0-095e27321b17" name="Default Changelist" comment="添加rabbitMq服务">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/service/impl/FileServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitMq-service/src/main/java/com/example/rabbitmqservice/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-service/src/main/java/com/example/rabbitmqservice/config/RabbitMQConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +52,6 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="H:/办公软件/apache-maven-3.6.3" />
-        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="H:\办公软件\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -66,30 +62,30 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/studentManager/course/course-service/src/main/resources/mapper&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.19332564&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;3674f5a22737394fe5b9145828657af1&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Projects/studentManager/course/course-service/src/main/resources/mapper",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.19332564",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "d97d8235decec9f7c91f4de335b9b86e",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -117,7 +113,7 @@
   </component>
   <component name="RunManager" selected="Spring Boot.RabbitMqServiceApplication">
     <configuration name="RabbitMqServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="rabbitMq-service" />
+      <module name="rabbitmq-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.rabbitmqservice.RabbitMqServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -223,7 +219,9 @@
       <workItem from="1726892462361" duration="1839000" />
       <workItem from="1726896710183" duration="306000" />
       <workItem from="1726897047725" duration="234000" />
-      <workItem from="1726897308411" duration="4409000" />
+      <workItem from="1726897308411" duration="4557000" />
+      <workItem from="1726902190720" duration="450000" />
+      <workItem from="1726902697660" duration="591000" />
     </task>
     <task id="LOCAL-00001" summary="12">
       <created>1716364966730</created>
@@ -253,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724141043975</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加rabbitMq服务">
+      <created>1726902121360</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726902121360</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +282,8 @@
     <MESSAGE value="12" />
     <MESSAGE value="重新设计common" />
     <MESSAGE value="pom 重新拉依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom 重新拉依赖" />
+    <MESSAGE value="添加rabbitMq服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加rabbitMq服务" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

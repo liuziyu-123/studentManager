@@ -105,6 +105,6 @@
         <module>common</module>
         <module>user</module>
         <module>course</module>
-        <module>rabbitMq-service</module>
+        <module>rabbitmq-service</module>
     </modules>
 </project>
