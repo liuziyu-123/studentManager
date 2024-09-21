@@ -5,6 +5,7 @@ import com.studentManager.common.Utils.ApiResult;
 import com.studentManager.common.Utils.JwtHelper;
 import com.studentManager.user.utils.RedisUtil;
 import com.studentManager.user.service.IUserService;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
@@ -20,6 +21,8 @@ public class UserController {
 
     @Autowired
     private RedisUtil redisUtil;
+
+    private RabbitTemplate rabbitTemplate;
 
     /**
      * 登陆
@@ -91,6 +94,12 @@ public class UserController {
         return ApiResult.success(word);
     }
      */
+
+    @PostMapping("test")
+    public ApiResult testRabbitMQ(){
+        rabbitTemplate.convertAndSend("");
+        return null;
+    }
 
 
 

@@ -13,6 +13,7 @@
         <module name="gateway-service" />
         <module name="user1-api" />
         <module name="user-service" />
+        <module name="rabbitMq-service" />
         <module name="course-api" />
         <module name="user1-service" />
       </profile>
@@ -38,6 +39,7 @@
       <module name="course-api" options="-parameters" />
       <module name="course-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
+      <module name="rabbitMq-service" options="-parameters" />
       <module name="studentManager" options="" />
       <module name="user" options="" />
       <module name="user-api" options="-parameters" />
