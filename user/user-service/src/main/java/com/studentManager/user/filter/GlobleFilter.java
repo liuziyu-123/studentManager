@@ -1,6 +1,8 @@
 package com.studentManager.user.filter;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
+
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
@@ -12,6 +14,10 @@ import java.io.IOException;
 @Slf4j
 public class GlobleFilter implements Filter {
 
+
+//    @Value("${white.list.login}")
+//    private String login;
+
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         log.info("过滤器执行了........");
@@ -20,7 +26,7 @@ public class GlobleFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         log.info("过滤器执行了");
-
+        //log.info(login);
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         //Filter 过滤器跨域处理

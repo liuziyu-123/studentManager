@@ -41,7 +41,6 @@ public class ClassController {
         if (null == classEntry) {
             return ApiResult.fail(ErrorConstant.EMPTY, "参数不能为空");
         }
-
         int count = classService.insertClass(classEntry);
         return ApiResult.success(count);
     }

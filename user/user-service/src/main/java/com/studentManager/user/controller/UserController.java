@@ -5,6 +5,7 @@ import com.studentManager.common.Utils.ApiResult;
 import com.studentManager.common.Utils.JwtHelper;
 import com.studentManager.user.utils.RedisUtil;
 import com.studentManager.user.service.IUserService;
+import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -32,11 +33,11 @@ public class UserController {
      */
     @PostMapping("login")
     public ApiResult login(@RequestBody UserEntry data) {
-        UserEntry user = userService.userLogin(data.getMobile(), data.getPassword());
+        UserEntry user = userService.userLogin(data.getMobile(), data.getPassWord());
 
 
         if (user != null) {  //登录成功
-                String token = JwtHelper.createToken(user.getId(), user.getPassword(), user.getUserNo());
+                String token = JwtHelper.createToken(user.getId(), user.getPassWord(), user.getUserNo());
 
             redisUtil.set(token, user, 30L, TimeUnit.MINUTES);
             return ApiResult.success(token);
@@ -76,25 +77,6 @@ public class UserController {
         return ApiResult.success(sb.toString());
     }
 
-    /**
-     * 验证码
-     * @param word
-     * @return
-
-    @GetMapping("verification")
-    public ApiResult verification(String word) {
-        String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghigklmnopqrstuvwxyz0123456789";
-        Random ran = new Random();
-        StringBuilder sb = new StringBuilder();
-        for (int i = 1; i <= 4; i++) {
-            int index = ran.nextInt(str.length());
-            char ch = str.charAt(index);
-            sb.append(ch);
-
-        }
-        return ApiResult.success(word);
-    }
-     */
 
     @PostMapping("test")
     public ApiResult testRabbitMQ(){

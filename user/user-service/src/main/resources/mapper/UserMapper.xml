@@ -4,7 +4,7 @@
 
     <select id="userLogin" resultType="com.studentManager.common.Entry.UserEntry">
         select * from user
-        where mobile=#{mobile} and password=#{password}
+        where mobile=#{mobile} and pass_word=#{password}
     </select>
 
     <select id="getUserName" resultType="java.lang.String">

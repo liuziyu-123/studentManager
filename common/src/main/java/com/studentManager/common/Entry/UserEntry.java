@@ -36,7 +36,7 @@ public class UserEntry {
     /**
      *密码
      */
-    private String password;
+    private String passWord;
 
     /**
      *省

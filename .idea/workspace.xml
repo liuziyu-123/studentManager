@@ -5,11 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47621957-901a-4406-b8d0-095e27321b17" name="Default Changelist" comment="添加rabbitMq服务">
+      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-service/src/main/java/com/example/rabbitmqservice/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/Config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/RabbitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitMq-service/src/main/java/com/example/rabbitmqservice/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-service/src/main/java/com/example/rabbitmqservice/config/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Entry/UserEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/studentManager/common/Entry/UserEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/controller/ClassController.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/src/main/java/com/studentManager/course/controller/ClassController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-service/src/main/java/com/example/rabbitmqservice/RabbitMqServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-service/src/main/java/com/example/rabbitmqservice/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-service/src/main/java/com/example/rabbitmqservice/config/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-service/src/main/java/com/example/rabbitmqservice/listener/RabbitMQListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-service/src/main/java/com/example/rabbitmqservice/listener/RabbitMQListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/Config/MyRabbitConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/Config/PropotiesConfiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/Config/PropotiesConfiger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/TsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/TsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/filter/GlobleFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/java/com/studentManager/user/filter/GlobleFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/Mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/target/classes/Mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/user-service/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +99,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Projects/studentManager/course/course-service/src/main/resources/mapper",
+    "last_opened_file_path": "D:/Projects/studentManager/user/user-service/src/main/java/com/studentManager/user/Config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,8 +108,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.19332564",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "d97d8235decec9f7c91f4de335b9b86e",
+    "settings.editor.selected.configurable": "spring.boot",
+    "spring.configuration.checksum": "31671b42bdc855ab3cce8346b6085240",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,11 +118,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\studentManager\user\user-service\src\main\java\com\studentManager\user\Config" />
+      <recent name="D:\Projects\studentManager\rabbitmq\rabbitmq-service\src\main\java\com\example\rabbitmqservice" />
       <recent name="D:\Projects\studentManager\course\course-service\src\main\resources\mapper" />
       <recent name="D:\Projects\studentManager\common\src\main\resources" />
       <recent name="D:\Projects\studentManager\common\src\main\java" />
-      <recent name="D:\Projects\studentManager\course\course-service\src\main\java\com\studentManager\course" />
-      <recent name="D:\Projects\studentManager\course\course-service\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\studentManager\common-service\src\main\resources\mapper" />
@@ -111,10 +138,44 @@
       <recent name="com.studentManager.course.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RabbitMqServiceApplication">
-    <configuration name="RabbitMqServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration name="CourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="course-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.studentManager.course.CourseApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.studentManager.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.studentManager.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.studentManager.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="rabbitmq-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.rabbitmqservice.RabbitMqServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.rabbitmqservice.RabbitmqServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.rabbitmqservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,6 +189,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.CourseApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.RabbitmqServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RabbitmqServiceApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.CourseApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -142,6 +216,9 @@
     </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -221,7 +298,10 @@
       <workItem from="1726897047725" duration="234000" />
       <workItem from="1726897308411" duration="4557000" />
       <workItem from="1726902190720" duration="450000" />
-      <workItem from="1726902697660" duration="591000" />
+      <workItem from="1726902697660" duration="5895000" />
+      <workItem from="1726969201127" duration="3578000" />
+      <workItem from="1727053965786" duration="345000" />
+      <workItem from="1727141851652" duration="13624000" />
     </task>
     <task id="LOCAL-00001" summary="12">
       <created>1716364966730</created>
@@ -258,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726902121360</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加rabbitMq服务">
+      <created>1726903737265</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726903737265</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,5 +384,9 @@
         <watch expression="interceptors[i]" language="JAVA" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

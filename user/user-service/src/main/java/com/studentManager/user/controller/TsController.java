@@ -6,6 +6,7 @@ import com.studentManager.user.entry.RegionEntry;
 import com.studentManager.user.service.TsService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -17,9 +18,9 @@ public class TsController {
 
     @Autowired
     private TsService tsService;
-//
-//    @Value("${white.list.login}")
-//    private String login;
+
+    @Value("${white.list.login}")
+    private String login;
 
     /**
      * 获取用户列表
