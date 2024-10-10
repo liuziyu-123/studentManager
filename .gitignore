@@ -1,3 +1,5 @@
 /.idea/
-/*/*/target/
-!**/src/main/**/target/
+target/
+*.class
+/log/
+/out/

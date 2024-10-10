@@ -1,4 +1,4 @@
-package com.studentManager.user.Config;
+package com.studentManager.user.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
